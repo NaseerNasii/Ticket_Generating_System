@@ -1,0 +1,222 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    background-image: url("./2.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.toolbox-cont{
+    height: 5rem;
+    display: flex;
+    
+    align-items: center;
+   
+}
+
+.toolbox-priority-cont{
+    height: 3rem;
+    width: 18rem;
+    margin-left: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.action-btn-cont{
+    cursor: pointer;
+    width: 10rem;
+    height: 3rem;
+    margin-left: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.action-btn-cont>*{
+    display: flex;
+    justify-content:center;
+    width: 50%;
+    font-size: 1.5rem;
+    color:black;
+
+}
+.colour{
+
+    height: 1.5rem;
+    width: 3rem;
+}
+.lightpink{
+    cursor: pointer;
+    background-color: lightpink;
+}
+.blue{
+    cursor: pointer;
+    background-color:lightblue;
+}
+.green{
+    cursor: pointer;
+    background-color: lightgreen;
+}
+.black{
+    cursor: pointer;
+    background-color: #D6CDA4;
+}
+.toolbox-cont>*{
+    margin-left: 5rem;
+    border-radius: 0.5rem;
+    background-color: #fafdd6;
+}
+.model-cont{
+    background-color: #fafdd6;
+    height: 50vh;
+    width: 50vw;
+    position: absolute;
+    top: 25vh;
+    right: 25vw;
+    display: none;
+}
+.textarea-cont{
+    height: 100%;
+    width: 74%;
+    outline: none;
+    border: none;
+    resize: none;
+    padding: 2rem;
+    font-size: 2rem;
+    background-color: #E4E9BE;
+    
+}
+.priority-colours-cont{
+    height: 100%;
+    width: 26%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.priority-colours{
+    height: 3rem;
+    width: 5rem;
+    
+}
+.active{
+    border: 5px solid #A2B38B;
+}
+.main-cont{
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+}
+.ticket-cont{
+    background-color:#B7C4CF;
+    height: 10rem;
+    width: 16rem;
+
+}
+.ticket-colour{
+    height: 1rem;
+}
+.ticket-id{
+    background-color:#EEE3CB;
+    height:1.5rem;
+    color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+}
+.task-area{
+    height: 6rem;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    outline: none;
+    overflow: auto;
+}
+.ticket-lock{
+    display:flex;
+    font-size: 1.5rem;
+    
+}
+.welcome-page{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 38rem;
+    width: 100%;
+    background-color: aqua;
+    
+}
+
+
+
+.all-content{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("./1.webp");
+    background-repeat: no-repeat;
+    background-size: auto;
+   
+}
+
+.head{
+    height: 28rem;
+    width: 100vw;
+    
+    color: black;
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    height: 5rem;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+.button>*{
+    height: 3rem;
+    width: 10rem;
+    font-size: 2rem;
+    color:darkgreen;
+    background-image: url("./1.webp");
+    background-repeat: no-repeat;
+    background-size: auto;
+    border-radius: 1rem;
+    
+}
+.open:hover{
+    cursor: pointer;
+    color: darkred;
+}
+.mod1{
+    display: inline;
+}
+.mod2{
+    display: none;
+}
+.back{
+    height:100vh;
+    width: 100vw;
+   
+}
+.ticcount{
+    height: 2rem;
+    width: 100vw;
+    font-size: 1.5rem;
+   
+    display: none;
+    justify-content: center;
+    align-items: center;
+    color:darkcyan;
+    
+}
